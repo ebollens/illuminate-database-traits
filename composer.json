@@ -1,0 +1,21 @@
+{
+    "name": "ebollens/illuminate-database-traits",
+    "description": "Common traits intended for Laravel's Illuminate Database components",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Bollens",
+            "email": "eric@eb.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "nesbot/carbon": "1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Ebollens\\Illuminate\\Database\\Traits": "src/"
+        }
+    }
+}
